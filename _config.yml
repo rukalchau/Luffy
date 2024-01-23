@@ -2,7 +2,7 @@
 title:               Lanyon
 tagline:             'A Jekyll theme'
 description:         'Hello World'
-url:                 https://rukalchau.github.io/
+url:                 https://rukalchau.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
