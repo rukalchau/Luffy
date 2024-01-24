@@ -36,7 +36,7 @@
           | first }}</a>
         <div class="sub-sub-accordion">
           {% for post in category.last %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ post.url }}">{{
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ post.url | absolute_url }}">{{
             post.title }}</a>
           {% endfor %}
         </div>
