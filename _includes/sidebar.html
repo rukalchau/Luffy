@@ -25,10 +25,27 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
-  </nav>
+
+  <div class="accordion">
+    <a class="sub-accordion sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#">Notes</a>
+    <div class="sub-sub-accordion">
+      <!-- recursively define accordion -->
+      {% for category in site.categories %}
+      <div class="accordion">
+        <a class="sub-accordion sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#">{{ category
+          | first }}</a>
+        <div class="sub-sub-accordion">
+          {% for post in category.last %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ post.url }}">{{
+            post.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+      <!-- end of recursive definition of accordion -->
+    </div>
+  </div>
+</nav>
 
   <div class="sidebar-item">
     <p>
