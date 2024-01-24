@@ -2,7 +2,8 @@
 title:               Lanyon
 tagline:             'A Jekyll theme'
 description:         'Hello World'
-url:                 https://rukalchau.github.io/Luffy
+url:                 https://rukalchau.github.io/
+baseurl:             '/Luffy'
 paginate:            5
 permalink:           pretty
 
