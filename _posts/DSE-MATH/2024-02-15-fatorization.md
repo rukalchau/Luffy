@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 因式分解
-category: DSE 數學
+category: DSE-MATH
 mathjax: true
 ---
     因爲好多同學仔唔了解因式分解，而因式分解又係DSE其中一個非常重要的技巧，因此我寫呢個post,希望可以幫助有需要的同學仔，等有時間我會將pastpaper其中運用到因式分解的地方post上來，方便大家理解
