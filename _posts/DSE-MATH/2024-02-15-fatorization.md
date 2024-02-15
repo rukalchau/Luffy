@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 因式分解
+title: Factorization
 category: DSE-MATH
 mathjax: true
 ---
