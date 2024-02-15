@@ -42,7 +42,7 @@ $a^2+2ab+b^2$
 
 因式分解：\
 $
- \displaylines{a^2+2ab+b^2\\=a^2+ab+ab+b^2\\=(a^2+ab)+(ab+b^2)\\=a(a+b)+b(a+b)\\=(a+b)(a+b)\\=(a+b)^2}
+ \displaylines{a^2+2ab+b^2 \\ =a^2+ab+ab+b^2 \\ =(a^2+ab)+(ab+b^2) \\ =a(a+b)+b(a+b) \\ =(a+b)(a+b) \\ =(a+b)^2}
 $
 
 而(a+b)^2 我地就可以確定佢係大於等於０，所以$a^2+2ab+b^2\ge0$
