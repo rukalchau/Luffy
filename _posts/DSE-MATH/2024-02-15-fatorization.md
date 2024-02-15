@@ -42,7 +42,7 @@ $a^2+2ab+b^2$
 
 因式分解：\
 $\begin{align}
-a^2+2ab+b^2\\=a^2+ab+ab+b^2\\=(a^2+ab)+(ab+b^2)\\=a(a+b)+b(a+b)\\=(a+b)(a+b)\\=(a+b)^2
+a^2+2ab+b^2\\\=a^2+ab+ab+b^2\\\=(a^2+ab)+(ab+b^2)\\\=a(a+b)+b(a+b)\\\=(a+b)(a+b)\\\=(a+b)^2
 \end{align}
 $
 
