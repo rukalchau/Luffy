@@ -29,7 +29,7 @@ $(a)(7a+b+c^2) ------(Ｂ)$
 正如上文所述，因式分解可以令你用第二種方法睇條式，而做完呢步之後，你會更加容易觀察到特定的模式(pattern)，你就可以根據個pattern進行下一步運算．
 
 ### 例子１
-$\dfrac {7a^2+ab+ac^2}{7a+b+c^2}=\dfrac{a(7a+b+c^2)}{7a+b+c^2}=\dfrac{a(\cancel{7a+b+c^2})}{\require{cancel} \cancel{7a+b+c^2}}=a$
+$\dfrac {7a^2+ab+ac^2}{7a+b+c^2}=\dfrac{a(7a+b+c^2)}{7a+b+c^2}=\dfrac{a(\require{cancel} \cancel{7a+b+c^2})}{\cancel{7a+b+c^2}}=a$
 
 原本睇落好複雜的東西，經過因式分解後，原來只不過一個a.
 
