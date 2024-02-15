@@ -49,6 +49,7 @@ $$a^2+2ab+b^2 \\ =a^2+ab+ab+b^2 \\ =(a^2+ab)+(ab+b^2) \\ =a(a+b)+b(a+b) \\ =(a+b
 ## 點做因式分解？ How?
 呢個問題網上已經有非常豐富的資源供大家參考，我都會總結唔同的方法，將優質的資源擺上呢個blog post\
 呢個post會慢慢更新，如果你有任何疑問或者idea都歡迎email:rukalchau@gmail.com搵我
+- [建議閱讀](https://amsi.org.au/teacher_modules/Factorisation.html)
 
 ## 練習
 
