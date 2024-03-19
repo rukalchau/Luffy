@@ -6,13 +6,13 @@ mathjax: true
 ---
 
 
-Regression  -> continuous numerical value
+Regression -> continuous numerical value
 
-Classification  -> discrete outputs
+Classification -> discrete outputs
 
 typical format of data:
 - $X_{i}$ = raw information of the sample
-- $Y_{i}$ = class | regression target value
+- $Y_{i}$ = class or regression target value
 
 A collection of data sample( X ) = a dataset.
 
@@ -42,8 +42,7 @@ Y= $ \alpha $ X+$\beta$+$\epsilon$
 
 #### SSR = Sum of squared residuals: 
 
-$ SSR=
-  (y_ {i}-(\beta +\alpha x_ {i}))^ {2} $ 
+$ SSR=(y_ {i}-(\beta +\alpha x_ {i}))^ {2} $ 
 
 
 # Multiple Linear Regression
@@ -53,9 +52,9 @@ $Y=X\beta+\epsilon$
 
 where $X$ is $n\times(p+1),p$ is the number of feature
 
-$SSR = ||Y-x  \beta   ||_ {2}^ {2}  =  (Y-x\beta )^ {T}  (Y-x  \beta  )$
+$$SSR = ||Y-x  \beta  ||_ {2}^ {2}  =  (Y-x\beta )^ {T}  (Y-x  \beta  )$$
 
- $ \beta  =  (X^ {T}X)^ {-1}   X^ {T}  Y$
+$ \beta  =  (X^ {T}X)^ {-1}   X^ {T}  Y$
 
 
 # Polynomial Regression
@@ -71,7 +70,7 @@ Polynomial regression models the relationship between the independent variable,�
 
 # Ridge Regression (L2 Regularization)
 
-$ ||Y-X  \beta $ $ ||_ {2}^ {2}  +  \lambda  ||  \beta  ||_ {2}  ^ {2}  $
+$$ ||Y-X  \beta $ $ ||_ {2}^ {2}  +  \lambda  ||  \beta  ||_ {2}  ^ {2}  $$
 
 $ (X^{T}X+  \lambda  I)  \beta  =  X^ {T}  Y$
 
@@ -86,7 +85,7 @@ The L2 penalty encourages smaller, more diffuse coefficient values, leading to a
 λ: Tuning parameter that controls the strength of the penalty term.
 # Lasso Regression (L1 Regularization)
 
-$ ||Y-X  \beta $ $ ||_ {2}^ {2}  +  \lambda  ||  \beta  ||_ {1}   $
+$$ ||Y-X  \beta $ $ ||_ {2}^ {2}  +  \lambda  ||  \beta  ||_ {1}   $$
 
     some factors (e.g., age of owner) are not useful! In many cases, we have designed “over-complicated” models by considering all different factors, which will lead to overfitting.
 
